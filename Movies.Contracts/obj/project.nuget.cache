@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zyk63t66lwo=",
+  "success": true,
+  "projectFilePath": "/home/hazem/dev/rest-api-course-final-master/1.GettingStarted/Movies.Contracts/Movies.Contracts.csproj",
+  "expectedPackageFiles": [
+    "/home/hazem/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
