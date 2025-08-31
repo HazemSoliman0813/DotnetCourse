@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zyk63t66lwo=",
+  "dgSpecHash": "BOZercDGNssJSKYg9IuQ1xQdBCueb3Ax1a03pvfFYKun/Ud5EHzDOi8iqjMz4h8Kz7tcLHtyZdVKmEd9H0Ii2Q==",
   "success": true,
-  "projectFilePath": "/home/hazem/dev/rest-api-course-final-master/1.GettingStarted/Movies.Contracts/Movies.Contracts.csproj",
-  "expectedPackageFiles": [
-    "/home/hazem/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Contracts\\Movies.Contracts.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
