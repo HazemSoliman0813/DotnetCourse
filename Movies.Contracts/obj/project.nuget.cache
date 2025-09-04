@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BOZercDGNssJSKYg9IuQ1xQdBCueb3Ax1a03pvfFYKun/Ud5EHzDOi8iqjMz4h8Kz7tcLHtyZdVKmEd9H0Ii2Q==",
+  "dgSpecHash": "J747PUxiHCTdSngQcplEEXVSRxAPKV7J+uPnIKTxZpFWe5J9v+0d+i4uq94+qwjP5Erjl6FjXOQhjCbjYRUqtw==",
   "success": true,
-  "projectFilePath": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Contracts\\Movies.Contracts.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/hazem/dev/DotnetCourse/Movies.Contracts/Movies.Contracts.csproj",
+  "expectedPackageFiles": [
+    "/home/hazem/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
