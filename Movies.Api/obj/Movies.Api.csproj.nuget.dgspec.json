@@ -1,42 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hazem\\dev\\DotnetCourse\\Movies.Api\\Movies.Api.csproj": {}
+    "/home/hazem/dev/DotnetCourse/Movies.Api/Movies.Api.csproj": {}
   },
   "projects": {
-    "D:\\Hazem\\dev\\DotnetCourse\\Movies.Api\\Movies.Api.csproj": {
+    "/home/hazem/dev/DotnetCourse/Movies.Api/Movies.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Api\\Movies.Api.csproj",
+        "projectUniqueName": "/home/hazem/dev/DotnetCourse/Movies.Api/Movies.Api.csproj",
         "projectName": "Movies.Api",
-        "projectPath": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Api\\Movies.Api.csproj",
-        "packagesPath": "C:\\Users\\hazem.soliman\\.nuget\\packages\\",
-        "outputPath": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Api\\obj\\",
+        "projectPath": "/home/hazem/dev/DotnetCourse/Movies.Api/Movies.Api.csproj",
+        "packagesPath": "/home/hazem/.nuget/packages/",
+        "outputPath": "/home/hazem/dev/DotnetCourse/Movies.Api/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hazem.soliman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hazem/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Hazem\\dev\\DotnetCourse\\Movies.Application\\Movies.Application.csproj": {
-                "projectPath": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Application\\Movies.Application.csproj"
+              "/home/hazem/dev/DotnetCourse/Movies.Application/Movies.Application.csproj": {
+                "projectPath": "/home/hazem/dev/DotnetCourse/Movies.Application/Movies.Application.csproj"
               },
-              "D:\\Hazem\\dev\\DotnetCourse\\Movies.Contracts\\Movies.Contracts.csproj": {
-                "projectPath": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Contracts\\Movies.Contracts.csproj"
+              "/home/hazem/dev/DotnetCourse/Movies.Contracts/Movies.Contracts.csproj": {
+                "projectPath": "/home/hazem/dev/DotnetCourse/Movies.Contracts/Movies.Contracts.csproj"
               }
             }
           }
@@ -71,6 +65,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -79,32 +79,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.120\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.120/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Hazem\\dev\\DotnetCourse\\Movies.Application\\Movies.Application.csproj": {
+    "/home/hazem/dev/DotnetCourse/Movies.Application/Movies.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Application\\Movies.Application.csproj",
+        "projectUniqueName": "/home/hazem/dev/DotnetCourse/Movies.Application/Movies.Application.csproj",
         "projectName": "Movies.Application",
-        "projectPath": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Application\\Movies.Application.csproj",
-        "packagesPath": "C:\\Users\\hazem.soliman\\.nuget\\packages\\",
-        "outputPath": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Application\\obj\\",
+        "projectPath": "/home/hazem/dev/DotnetCourse/Movies.Application/Movies.Application.csproj",
+        "packagesPath": "/home/hazem/.nuget/packages/",
+        "outputPath": "/home/hazem/dev/DotnetCourse/Movies.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hazem.soliman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hazem/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -122,6 +116,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -133,37 +133,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.120\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.120/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Hazem\\dev\\DotnetCourse\\Movies.Contracts\\Movies.Contracts.csproj": {
+    "/home/hazem/dev/DotnetCourse/Movies.Contracts/Movies.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Contracts\\Movies.Contracts.csproj",
+        "projectUniqueName": "/home/hazem/dev/DotnetCourse/Movies.Contracts/Movies.Contracts.csproj",
         "projectName": "Movies.Contracts",
-        "projectPath": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Contracts\\Movies.Contracts.csproj",
-        "packagesPath": "C:\\Users\\hazem.soliman\\.nuget\\packages\\",
-        "outputPath": "D:\\Hazem\\dev\\DotnetCourse\\Movies.Contracts\\obj\\",
+        "projectPath": "/home/hazem/dev/DotnetCourse/Movies.Contracts/Movies.Contracts.csproj",
+        "packagesPath": "/home/hazem/.nuget/packages/",
+        "outputPath": "/home/hazem/dev/DotnetCourse/Movies.Contracts/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hazem.soliman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hazem/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -192,12 +192,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.120\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.120/RuntimeIdentifierGraph.json"
         }
       }
     }

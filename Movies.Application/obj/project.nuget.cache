@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Icfbx60+ATlD0HJdaCPs4vs3zAiiJiWasL1sVx/z0rC/lvkiHjY0XsRgHL4RO5Cy9YEtqS4Sc08mUx+vtCR7uw==",
+  "dgSpecHash": "zor0F5cYj7Psu7/wmbDCGgBRGpM3YagLptM70v7gDzDSWaJjwdg4NF9JNlMwxY0WyeOgNLtwbcrOjKK6rekWQA==",
   "success": true,
-  "projectFilePath": "d:\\Hazem\\dev\\DotnetCourse\\Movies.Application\\Movies.Application.csproj",
+  "projectFilePath": "/home/hazem/dev/DotnetCourse/Movies.Application/Movies.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hazem.soliman\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "/home/hazem/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/hazem/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }
